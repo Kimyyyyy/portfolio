@@ -351,28 +351,38 @@
                                 </a>
                             </div>
                             <div class="swiper-slide">
+                                <a href="https://www.animals.or.kr/center/essay/65312" target="_blank">
+                                    <img src="./images/img/1-5.png" alt="1-5 금요일">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.animals.or.kr/center/essay/66483" target="_blank">
+                                    <img src="./images/img/1-6.png" alt="1-6 소개팅">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
                                 <a href="https://www.instagram.com/p/Cz-3gbfrOUW/?img_index=1" target="_blank">
-                                    <img src="./images/img/1-5.png" alt="1-5 알코">
+                                    <img src="./images/img/1-7.png" alt="1-7 알코">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="https://www.instagram.com/p/Cz2akKbpgLx/?img_index=1" target="_blank">
-                                    <img src="./images/img/1-6.png" alt="1-6 케빈">
+                                    <img src="./images/img/1-8.png" alt="1-8 케빈">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="https://www.instagram.com/p/CzFYkcGv4Kr/?img_index=1" target="_blank">
-                                    <img src="./images/img/1-7.png" alt="1-7 접종하는날">
+                                    <img src="./images/img/1-9.png" alt="1-9 접종하는날">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="https://www.instagram.com/p/Cy4gp3IPsBT/?img_index=1" target="_blank">
-                                    <img src="./images/img/1-8.png" alt="1-8 로운">
+                                    <img src="./images/img/1-10.png" alt="1-10 로운">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="https://www.instagram.com/p/CyNAM0IrTCR/?img_index=1" target="_blank">
-                                    <img src="./images/img/1-9.png" alt="1-9 온캣이사">
+                                    <img src="./images/img/1-11.png" alt="1-11 온캣이사">
                                 </a>
                             </div>
                         </div>
@@ -538,7 +548,7 @@
             </ul>
         </div>
     </section>
-    
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         // 각 갤러리마다 Swiper 초기화
@@ -546,7 +556,7 @@
         
         galleries.forEach(galleryClass => {
             new Swiper(`.${galleryClass}`, {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 10,
                 loop: true,
                 // autoplay: {
@@ -561,8 +571,29 @@
         });
     </script>
 
+    <section id="section4" class="slider_con">
+        <h3 data-aos="fade-up" data-aos-duration="800"><div class="inner">다음 페이지는, 함께 채워가요!</div></h3>
+        <div class="content inner">
+            <ul>
+                <li data-aos="fade-up" data-aos-duration="800">
+                    <h4>CONTACT</h4>
+                    <p>연락을 기다리고 있어요 :)</p>
+                    <span>김민영 ★ 010-7922-5338</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <footer>
         Copyright © Kimyyyyy. All Rights Reserved.
     </footer>
+
+    <script>
+        document.querySelectorAll('section').forEach(section => {
+          section.addEventListener('dragstart', e => e.preventDefault());
+          section.addEventListener('selectstart', e => e.preventDefault());
+        });
+      </script>
+
 </body>
 </html>
